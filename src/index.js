@@ -4,6 +4,8 @@ import './index.css';
 import Aaa from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
+import './assets/stylesheets/common.scss';
+
 
 ReactDOM.render(<Aaa />, document.getElementById('root'));
 
