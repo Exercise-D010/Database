@@ -4,6 +4,7 @@ import './App.css';
 import LoginPage from './pages/login/login';
 import ProfilePage from './pages/profile/profile';
 import DashboardPage from './pages/dashboard/dashboard';
+import HomePage from './pages/home/home';
 
 function Aaa() {
   return (
@@ -11,6 +12,7 @@ function Aaa() {
       <LoginPage></LoginPage>
       <ProfilePage></ProfilePage>
       <DashboardPage></DashboardPage>
+      <HomePage></HomePage>
     </div>
   );
 }
