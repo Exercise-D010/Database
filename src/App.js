@@ -13,6 +13,7 @@ function Aaa() {
       <ProfilePage></ProfilePage>
       <DashboardPage></DashboardPage>
       <HomePage></HomePage>
+      <ProfilePage></ProfilePage>
     </div>
   );
 }
