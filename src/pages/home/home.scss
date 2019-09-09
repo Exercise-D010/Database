@@ -1,0 +1,29 @@
+.home-page{
+    background: white;
+    padding:1% 8% 1% 8%;
+    min-height: 500px;
+    .what-we-do-contact{
+        width: 100%;
+        position: relative;
+        .what-we-do{
+            width: 60%;
+            float: left;
+        }
+        .contact{
+            width: 40%;
+            float: right;
+        }
+    } 
+    
+    .card-item{
+        clear: both;
+        width: 100%;
+        .item{
+           width:calc((84%)/3);
+           float: left;
+           padding: 5px;
+
+        }
+    }
+    
+}
