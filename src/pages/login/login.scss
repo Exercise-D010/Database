@@ -1,87 +1,23 @@
 *{margin: 0px; padding: 0px}
-body{
-	font-size: sans-serif;
+
+.login{
+	background: #82ccdd;
+	min-height: 800px;
+	position: relative;
+
+	.login-box{
+		background: orange;
+		width: 400px;
+		height: 500px;
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		box-sizing: border-box;
+		padding: 70px 30px;
+
+	}
 }
-
-.login-box{
-	width: 320px;
-	height: 420px;
-	background: rgb(0,0,0,0.5);
-	color: #fff;
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	transform: translate(-50%, -50%);
-	box-sizing: border-box;
-	padding: 70px 30px;
-}
-
-.logo{
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	position: absolute;
-	top: -50px;
-	left: calc(50% - 50px);
-}
-
-h1{
-	margin:0;
-	padding: 0 0 20px;
-	text-align: center;
-	font-size: 22px;
-}
-
-.login-box p{
-	margin: 0;
-	padding: 0;
-	font-weight: bold;
-}
-
-.login-box input{
-	width: 100%;
-	margin-bottom: 20px;
-}
-
-.login-box input[type="text"], input[type="password"]
-{
-	border: none;
-	border-bottom: 1px solid #fff;
-	background: transparent;
-	outline: none;
-	height: 40px;
-	color: #fff;
-	font-size: 16px;
-
-}
-
-.login-box input[type="submit"]
-{
-	border: none;
-	outline: none;
-	height: 40px;
-	background: #1c8adb;
-	color: #fff;
-	font-size: 18px;
-	border-radius: 20px;
-}
-
-.login-box input[type="submit"]:hover{
-	color: #1c8adb;
-	background: #fff;
-}
-
-.login-box a{
-	text-decoration: none;
-	color: #fff;
-	font-size: 14px;
-}
-
-
-.login-box a:hover{
-	color: #1c8adb;
-}
-
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in bootstrap

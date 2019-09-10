@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
-import ('./main-menu.scss');
+import './main-menu.scss';
 
 class MenuBar extends React.Component {
     render() {
