@@ -1,5 +1,7 @@
 import React from 'react';
 import './login.scss';
+import Logo from '../../assets/images/logo.png';
+
 
 
 
@@ -9,11 +11,11 @@ class LoginPage extends React.Component{
             <div>
                 <div className="login">
                     <div className="login-box">
-                        <img src="../../assets/images/logo.png" alt="">
+                        <img src={Logo} alt="hinh logo" className="logo"/>
                        
-                        <p>Username</p>
+                        <i>Username</i>
                         <input type="text" name="username" placeholder="Enter Username"/>
-                        <p>Password</p>
+                        <i>Password</i>
                         <input type="password" name="password" placeholder="Enter Password"/>
                         <input type="submit" name="submit" value="Login"/>
                         <a href="#">Forget Password</a>

@@ -15,7 +15,14 @@
 		transform: translate(-50%, -50%);
 		box-sizing: border-box;
 		padding: 70px 30px;
+	}
 
+	.logo{
+		width:150px;
+		height: 150px;
+		position: absolute;
+		top: -70px;
+		left: calc(40% - 30px);
 	}
 }
 /*
