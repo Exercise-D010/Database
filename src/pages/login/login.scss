@@ -2,10 +2,10 @@
 
 .login{
 	background: #82ccdd;
-	min-height: 800px;
-	position: relative;
-
-	.login-box{
+	min-height: 1000px;
+	width: 100%;
+	
+	.body-login{
 		background: orange;
 		width: 400px;
 		height: 400px;
@@ -17,21 +17,40 @@
 		padding: 70px 30px;
 	}
 
-	.logo{
+	.circle{
 		width:150px;
 		height: 150px;
 		position: absolute;
-		top: -70px;
-		left: calc(40% - 30px);
+		background: #82ccdd;
+		border-radius: 50%;
+		left: 50%;
+		margin-left: -75px;
+		margin-top: -150px;
+		&:after{
+			content:'A';
+			color:#fff;
+			line-height: 100px;
+			width:80%;
+			height:80%;
+			position: absolute;
+			background: red;
+			border-radius: 50%;
+			border:5px solid #fff;
+			left: 50%;
+			margin-left: -40%;
+			margin-top: 10px ;
+		}	
 	}
 
-	.khung{
+	.form{
 		margin:30px 50px;
 		padding-bottom: 10px;
 	
 
-		input{
-			margin-bottom: 15px;
+		
+
+		p{
+			font-size: 16px;
 		}
 	}
 }
