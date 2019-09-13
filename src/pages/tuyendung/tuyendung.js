@@ -4,7 +4,9 @@ import './tuyendung.scss';
 class TuyendungPage extends React.Component{
     render(){
         return(
-            <div>Tuyen Dung</div>
+            <React.Fragment>
+                 <div>Tuyen Dung</div>
+            </React.Fragment>
         )
     }
 }
