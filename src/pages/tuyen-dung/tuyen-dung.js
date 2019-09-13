@@ -1,11 +1,11 @@
 import React from 'react';
-import './tuyendung.scss';
+import './tuyen-dung.scss';
 
 class TuyendungPage extends React.Component{
     render(){
         return(
             <React.Fragment>
-                 <div>Tuyen Dung</div>
+                 <div>Tuyển Dụng</div>
             </React.Fragment>
         )
     }
