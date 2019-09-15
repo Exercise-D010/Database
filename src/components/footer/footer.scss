@@ -1,5 +1,40 @@
 .footerpage{
-    background: gray;
+    background: #0097e6;
     width: 100%;
-    height:70px;
+    min-height:auto;
+
+    .cot{
+        text-align: left;
+        color: white;
+        padding-top:20px;
+        padding-bottom:30px;
+
+        hr{
+            border: 1px solid #efefef;
+            border-radius: 3px;
+            width:50px;
+            margin-left:0;   
+        }
+
+        p{
+            font-size: 13px;
+            width: 75%;
+        }
+
+        a{
+            color:white;
+            font-size:20px;
+        }
+
+        i{
+            padding-right:10px;
+        }
+
+        a:hover{
+            cursor: pointer;
+            text-decoration: none;
+            font-size:22px;
+        }
+    }
+
 }

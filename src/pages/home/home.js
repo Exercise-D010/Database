@@ -30,7 +30,6 @@ class HomePage extends React.Component{
                     </div>
                 
                 </div> 
-            <FooterElement></FooterElement> 
             </React.Fragment>
             
         )
