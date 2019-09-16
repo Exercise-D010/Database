@@ -17,7 +17,7 @@ class MenuBar extends React.Component{
                                 <NavDropdown.Item href="#action/3.2">Thiết kế App</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.3">Thiết kế nội thất</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Ngôn ngữ tiếng Hàn</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.4">Tiếng Hàn</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="/blog">Blog</Nav.Link>
                             <Nav.Link href="/gioi-thieu">Giới Thiệu</Nav.Link>
@@ -28,11 +28,7 @@ class MenuBar extends React.Component{
                         <Form inline >
                         <FormControl type="text" placeholder="Tìm Kiếm" className="mr-sm-2" />
                         <Button variant="outline-success">Tìm Kiếm</Button>
-                        </Form>
-
-                        <Nav className="ml-auto">
-                             <Button href="/login" variant="secondary">ĐĂNG NHẬP</Button>
-                        </Nav>
+                        </Form>                        
                     </Navbar.Collapse>
                 </Navbar>
             </React.Fragment>

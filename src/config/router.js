@@ -9,28 +9,39 @@ import KhoaDaoTaoPage from '../pages/khoa-dao-tao/khoa-dao-tao';
 import BlogPage from '../pages/blog/blog';
 import GioiThieuPage from '../pages/gioi-thieu/gioi-thieu';
 import LienHePage from '../pages/lien-he/lien-he';
+import Auth from '../components/auth/auth';
 
-// class MainRouter extends React.Component {
-//     render() {
-//         return(
-//             <BrowserRouter>
-//                 <Switch>
-//                     <Route path='/' exact component={HomePage}></Route>
-//                     <Route path='/login' exact component={LoginPage}></Route>
-//                     <Route path='/dashboard' exact component={DashboardPage}></Route>
-//                     <Route path='/home' exact component={HomePage}></Route>
-//                     <Route path='/profile' exact component={ProfilePage}></Route>
-//                 </Switch>
-//             </BrowserRouter>
-//         )
-//     }
-// }
+const MainRouter = () => (
+             <BrowserRouter>
+                 <Switch>
+                    <Route exact path='/' render={
+                        ()=>(
+                            <Auth orRedirectTo="/login" orRender={
+                                <ProfilePage></ProfilePage>
+                            }></Auth>
+                        )      
+                    }></Route>
+                    <Route path='/login' exact component={LoginPage}></Route>
+                     <Route path='/dashboard' exact component={DashboardPage}></Route>
+                    <Route path='/home' exact component={HomePage}></Route>
+                    <Route path='/profile' exact component={ProfilePage}></Route>
+                </Switch>
+            </BrowserRouter>
+ )
 
-const MainRouter = () => {
+
+
+ /*const MainRouter = () => {
     return(
         <BrowserRouter>
             <Switch>
-                <Route path='/' exact component={ HomePage }></Route>
+                <Route path='/' render={
+                    ()=>{
+                        <Auth orRedirectTo="/login" orRender={
+                            <ProfilePage></ProfilePage>
+                        }></Auth>
+                    }
+                }></Route>
                 <Route path='/login' exact component={ LoginPage }></Route>
                 <Route path='/dashboard' exact component={ DashboardPage }></Route>
                 <Route path='/home' exact component={ HomePage }></Route>
@@ -43,6 +54,6 @@ const MainRouter = () => {
             </Switch>
         </BrowserRouter>  
     )
-}
+}*/
 
 export default MainRouter
