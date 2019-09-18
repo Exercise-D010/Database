@@ -9,7 +9,7 @@ import KhoaDaoTaoPage from '../pages/khoa-dao-tao/khoa-dao-tao';
 import BlogPage from '../pages/blog/blog';
 import GioiThieuPage from '../pages/gioi-thieu/gioi-thieu';
 import LienHePage from '../pages/lien-he/lien-he';
-import Auth from '../components/auth/auth';
+import Auth from '../services/auth/auth';
 
 const MainRouter = () => (
              <BrowserRouter>
@@ -25,6 +25,11 @@ const MainRouter = () => (
                      <Route path='/dashboard' exact component={DashboardPage}></Route>
                     <Route path='/home' exact component={HomePage}></Route>
                     <Route path='/profile' exact component={ProfilePage}></Route>
+                    <Route path='/tuyen-dung' exact component={ TuyendungPage }></Route>
+                    <Route path='/khoa-dao-tao' exact component={ KhoaDaoTaoPage }></Route>
+                    <Route path='/blog' exact component={ BlogPage }></Route>
+                    <Route path='/gioi-thieu' exact component={ GioiThieuPage }></Route>
+                    <Route path='/lien-he' exact component={ LienHePage }></Route>
                 </Switch>
             </BrowserRouter>
  )
