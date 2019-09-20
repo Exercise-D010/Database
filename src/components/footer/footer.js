@@ -26,9 +26,9 @@ class FooterElement extends React.Component{
                         <Col className="col-md-4 cot">
                             <h5>Kết Nối</h5>
                             <hr/>
-                            <p><a href="#"><i class="fab fa-facebook-f"></i>Facbook</a></p>
-                            <p><a href="#"><i class="fab fa-youtube-square"></i>Youtube</a></p>
-                            <p><a href="#"><i class="fab fa-instagram"></i>Instagram</a></p>
+                            <p><a href="#"><i className="fab fa-facebook-f"></i>Facbook</a></p>
+                            <p><a href="#"><i className="fab fa-youtube-square"></i>Youtube</a></p>
+                            <p><a href="#"><i className="fab fa-instagram"></i>Instagram</a></p>
                         </Col>
                     </Row>
                     <Row>
