@@ -3,7 +3,9 @@ import LocalizedStrings from 'react-localization';
 export const locale = new LocalizedStrings(
    {
         vi: {
-            lang: "Tiếng Việt",
+            vi: "Tiếng Việt",
+            en: "Tiếng Anh",
+            lang: "Ngôn Ngữ",
             home: "Trang Chủ",
             trainning: "Khóa Đào Tạo",
             blog: "Blog",
@@ -19,7 +21,9 @@ export const locale = new LocalizedStrings(
         },
 
          en: {
-            lang: "English",
+            vi: "VietNames",
+            en: "Englishes",
+            lang: "Language",
             home: "Home",
             trainning: "Trainning",
             blog: "Blog",

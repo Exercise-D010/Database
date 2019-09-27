@@ -1,11 +1,12 @@
 import React from 'react';
 import './lien-he.scss';
+import { locale } from '../../config/locale';
 
 class LienHePage extends React.Component{
     render(){
         return(
             <React.Fragment>
-                 <div>Liên Hệ</div>
+                 <div>{ locale.contact }</div>
             </React.Fragment>
         )
     }
