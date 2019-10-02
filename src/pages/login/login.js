@@ -52,7 +52,7 @@ class LoginPage extends React.Component{
                       </Form.Group>
                       
                       <Button onClick={(e) => this.onClick(e)} className="btn btn-danger form-control">
-                          Đăng Nhập
+                          Dang Nhap
                       </Button>
                       <p>Don't have an account? <a href="#">Sign Up</a></p>
                       <a href="#">Forgot your password?</a> 

@@ -49,7 +49,7 @@ class MenuBar extends React.Component{
                             <Nav.Link href="/lien-he" className="">{ locale.contact }</Nav.Link>
                         </Nav>
                        
-                        <Form inline>
+                        <Form inline className="ml-auto">
                             <FormControl type="text" placeholder={ locale.search } className="mr-sm-2" />
                             <Button variant="outline-success" className="w100">{ locale.search }</Button>
                         </Form>
