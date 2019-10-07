@@ -31,7 +31,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <MenuBar></MenuBar>
-        <HeaderElement></HeaderElement>
+        
       
         <MainRouter></MainRouter>
         <FooterElement></FooterElement>
