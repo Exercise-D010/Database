@@ -16,7 +16,8 @@ export const locale = new LocalizedStrings(
             login: "Đăng Nhập",
             logout: "Đăng Xuất",
             phone_number: "Số Điện Thoại",
-            password: "Mật Khẩu"
+            password: "Mật Khẩu",
+            chinhanh: "Chi Nhánh"
             
         },
 
@@ -34,7 +35,8 @@ export const locale = new LocalizedStrings(
             login: "Login",
             logout: "Logout",
             phone_number: "Phone Number",
-            password: "Password"
+            password: "Password",
+            chinhanh: "Branch",
         }
    } 
 )

@@ -7,7 +7,7 @@ class SlideProduct extends React.Component{
             <React.Fragment>
                 <div className="slide-product">
                     <div className="slide-product-item">
-
+                         {this.props.title}
                     </div>
                 </div>  
             </React.Fragment>

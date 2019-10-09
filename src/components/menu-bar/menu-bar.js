@@ -41,6 +41,7 @@ class MenuBar extends React.Component{
                             <Nav.Link href="/gioi-thieu" className="">{ locale.about }</Nav.Link>
                             <Nav.Link href="/tuyen-dung" className="">{ locale.hire }</Nav.Link>
                             <Nav.Link href="/lien-he" className="">{ locale.contact }</Nav.Link>
+                            <Nav.Link href="/chi-nhanh" className="">{ locale.chinhanh }</Nav.Link>
                         </Nav>
                        
                         <Form inline className="ml-auto">

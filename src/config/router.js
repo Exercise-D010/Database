@@ -10,6 +10,7 @@ import BlogPage from '../pages/blog/blog';
 import GioiThieuPage from '../pages/gioi-thieu/gioi-thieu';
 import LienHePage from '../pages/lien-he/lien-he';
 import Auth from '../services/auth/auth';
+import ChiNhanh from '../pages/chi-nhanh/chi-nhanh'
 
 const MainRouter = () => (
   <BrowserRouter>
@@ -30,6 +31,7 @@ const MainRouter = () => (
         <Route path='/blog' exact component={ BlogPage }></Route>
         <Route path='/gioi-thieu' exact component={ GioiThieuPage }></Route>
         <Route path='/lien-he' exact component={ LienHePage }></Route>
+        <Route path='/chi-nhanh' exact component={ ChiNhanh }></Route>
     </Switch>
   </BrowserRouter>
 )

@@ -2,7 +2,8 @@ import React from 'react';
 import './khoa-dao-tao.scss';
 import SlideItems from '../../components/slide/slide';
 
-const Courese = [
+
+const Courses = [
     'Tiếng Nhật',
     'Tiếng Hàn',
     'Tiếng Anh',
@@ -17,7 +18,7 @@ class KhoaDaoTaoPage extends React.Component{
     render(){
         return(
             <React.Fragment>
-                 <SlideItems item={Courese}></SlideItems>
+                 <SlideItems items={Courses} product={true}></SlideItems>
             </React.Fragment>
         )
     }

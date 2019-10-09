@@ -2,6 +2,7 @@ import React from 'react';
 import './slide.scss';
 import { Slide } from 'react-slideshow-image';
 import SlideImage from './image/image';
+import SlideProduct from './product/product';
 
 
 const properties = {
@@ -28,7 +29,7 @@ class SlideItems extends React.Component{
                     {
                         this.props.item.map(
                             (v,i)=>(
-                                <SlideImage key={i} imgPath={v}> </SlideImage>
+                                this.props.product ? <SlideProduct title={v}></SlideProduct> : <SlideImage key={i} imgPath={v} />
                             )
                         )
                     }
