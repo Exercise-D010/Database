@@ -1,6 +1,6 @@
 import React from 'react';
 import './tuyen-dung.scss';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 
 class TuyendungPage extends React.Component{
@@ -9,71 +9,40 @@ class TuyendungPage extends React.Component{
             <React.Fragment>
               <Container>
                 <Row className="justify-content-md-center td">
-                  <Col xs={8}>
-                    <p>Green Adecamy thường xuyên tìm những người bạn đồng hành năng động, nhiệt huyết và hơn hết là yêu 
-                      thích thời trang gia nhập vào đại gia đình. Chúng tôi không ngại tạo cho những bạn trẻ những cơ hội 
-                      trải nghiệm và thử thách trong một môi trường thời trang phát triển không ngừng.
-                    </p>
+                  <Col xs={8} className="khung">
+                    <p className="ts">TUYỂN SINH TIẾNG HÀN</p>
+                    <h4>Trung tâm dạy tiếng Hàn Quốc tại TP.HCM</h4>
+                    <img src="https://greenacademy.edu.vn/wp-content/uploads/2019/10/1505890072_Han-Sakura-1400x663.jpg"  alt=""/>
+                    <p className="nd">Hàn Quốc là một trong những quốc gia được nhiều bạn trẻ yêu thích, bởi con người, phong cảnh và món ăn nơi đây. 
+                    Nếu bạn muốn đến với đất nước xinh đẹp này thì trước tiên bạn phải biết giao tiếp cơ bản với người Hàn Quốc. 
+                    Và bạn đang muốn tìm một trung. </p>
+                    <Button className="btn btn-primary nut">
+                        Continue Reading
+                    </Button>
                   </Col>
-                </Row>
 
-                <Row className="justify-content-md-center">
-                  <Col xs={8}>
-                    <p className="nd">Các Vị Trí Tuyển Dụng:</p>
+                  <Col xs={8} className="khung">
+                    <p className="ts">TUYỂN SINH PHOTOSHOP</p>
+                    <h4>Designer nghành Hot, nâng cao sự sáng tạo</h4>
+                    <img src="https://greenacademy.edu.vn/wp-content/uploads/2019/10/Hoc-Design-kho-khong-1400x785.jpg"  alt=""  className="ha"/>
+                    <p className="nd">Nhắc đến Designer, có lẽ các bạn sẽ tưởng tượng ra một anh chàng thật ngầu với bộ trang phục thật phong cách, 
+                    hoặc một cô nàng với sự sáng tạo toát ra cả vẻ bề ngoài. Nhưng, bạn có thực sự hiểu công việc của một Designer là gì? Ngành nghề siêu hot trong.</p>
+                    <Button className="btn btn-primary nut">
+                        Continue Reading
+                    </Button>
                   </Col>
-                </Row>
-            
-                <Row className="justify-content-md-center">
-                  <Col xs={8}>
-                    <p>- Nhân viên Sales Marketing</p>
-                    <p>- Nhân viên quản lý Website</p>
-                    <p>- Nhân viên thiết kế UIUX</p>
-                    <p>- Nhân viên lập trình về ReactJS</p>
-                  </Col>
-                </Row>
 
-                <Row className="justify-content-md-center">
-                  <Col xs={8}>
-                    <p className="nd">Nếu bạn muốn:</p>
+                  <Col xs={8} className="khung">
+                    <p className="ts">TUYỂN SINH LẬP TRÌNH</p>
+                    <h4>Trở thành lập trình viên - Bạn đã sẵn sàng chưa</h4>
+                    <img src="https://greenacademy.edu.vn/wp-content/uploads/2019/10/1691.jpg"  alt=""  className="ha1"/>
+                    <p className="nd">Làm lập trình chắc lương cao lắm? Học công nghệ thông tin chắc khó lắm, toàn là thuật toán và code thôi. 
+                    Đối với một bạn mới bắt đầu, chưa tìm hiểu về ngành lập trình công nghệ thông tin, chắc hẳn đây là những câu hỏi mà bạn đang thắc mắc. Thời đại công</p>
+                    <Button className="btn btn-primary nut">
+                        Continue Reading
+                    </Button>
                   </Col>
                 </Row>
-
-                <Row className="justify-content-md-center">
-                  <Col xs={8}>
-                    <p>- Được trải nghiệm môi trường trẻ trung, chuyên nghiệp, định hướng phát triển rõ ràng.</p>
-                    <p>- Thoả sức thể hiện bản thân trong một môi luôn chuyển động, nhiều cơ hội học hỏi.</p>
-                    <p>- Có cơ hội phát triển trong nghề nghiệp.</p>
-                    <p>- Được hưởng đãi ngộ lương thưởng tốt.</p>
-                  </Col>
-                </Row>
-
-                <Row className="justify-content-md-center">
-                  <Col xs={8}>
-                    <p className="nd">Yêu cầu cơ bản:</p>
-                  </Col>
-                </Row>
-
-                <Row className="justify-content-md-center">
-                  <Col xs={8}>
-                    <p>- Nam/Nữ trong độ tuổi từ 18-35 tuổi.</p>
-                    <p>- Kinh nghiệm trong lĩnh vực chuyên môn.</p>
-                    <p>- Có hiểu biết cơ bản về vị trí tuyển</p> 
-                  </Col>
-                </Row>
-
-                <Row className="justify-content-md-center">
-                  <Col xs={8}>
-                    <p className="nd">Bạn chỉ cần:</p>
-                  </Col>
-                </Row>
-
-                <Row className="justify-content-md-center">
-                  <Col xs={8}>
-                    <p>- Ghi rõ vị trí ứng tuyển ở phần subject của mail (Ví dụ: [Sales person] Tên của bạn) và gửi về greenadecamy@.com.vn</p>
-                    <p>Chúng tôi sẽ liên hệ với các ứng viên đạt yêu cầu, hi vọng được gặp gỡ và hợp tác với các bạn.</p> 
-                  </Col>
-                </Row>
-
               </Container>  
             </React.Fragment>
         )
