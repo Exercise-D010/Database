@@ -42,9 +42,19 @@ class TuyendungPage extends React.Component{
                         Continue Reading
                     </Button>
                   </Col>
-                </Row>
 
-                dfdgfgf
+                  <Col xs={8} className="khung">
+                    <p className="ts">TUYỂN SINH IT</p>
+                    <h4>Công nghệ thông tin hot nhất hiện nay</h4>
+                    <img src="https://greenacademy.edu.vn/wp-content/uploads/2019/10/shutterstock_1172558854.jpg"  alt=""  className="ha2"/>
+                    <p className="nd">Học ngành công nghệ thông tin ra trường làm gì? Đây không những là câu hỏi của nhiều bậc phụ huynh có con đang theo học
+                     trong lĩnh vực này mà còn do chính người trong cuộc hỏi như thế. Hãy xem 10 nghề dưới đây để hiểu rõ hơn ngành Công Nghệ Thông Tin.</p>
+                    <Button className="btn btn-primary nut">
+                        Continue Reading
+                    </Button>
+                  </Col>
+                </Row>
+                
               </Container>  
             </React.Fragment>
         )
