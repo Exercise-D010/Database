@@ -30,7 +30,7 @@ class MenuBar extends React.Component{
     render(){
         return(
             <React.Fragment>    
-                <Navbar bg="light" expand="lg" className="main-menu">
+                <Navbar bg="" expand="lg" className="main-menu">
                     <Navbar.Brand href="#home">Green Adecamy</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
